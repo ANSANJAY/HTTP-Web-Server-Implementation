@@ -5,6 +5,9 @@
 #include <netdb.h>
 #include <memory.h>
 #include <errno.h>
+#include <ctype.h>
+#include <unistd.h>
+#include <arpa/inet.h>
 
 /*Server process is running on this port no. Client has to send data to this port no*/
 #define SERVER_PORT     2000
